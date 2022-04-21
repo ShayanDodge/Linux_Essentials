@@ -12,3 +12,11 @@ ls
 
 Change Directory
 cd
+
+Back to up directory
+cd ..
+Two step
+cd ../..
+
+Indicate current directory
+.
