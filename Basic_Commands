@@ -30,3 +30,6 @@ cd .
 compiler c++
 g++ name.cpp -o output
 ./output
+
+show file type
+file name.cpp
