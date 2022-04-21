@@ -1,4 +1,4 @@
-Open a terminal
+% Open a terminal
 Ctrl+Alt+T
 
 Print your current working directory
@@ -9,6 +9,8 @@ pwd
 
 Listing available Files
 ls
+ls -a % show hidden files
+la -l % show details
 
 Change Directory
 cd
@@ -20,3 +22,7 @@ cd ../..
 
 Indicate current directory
 cd .
+
+compiler c++
+g++ name.cpp -o output
+./ output
