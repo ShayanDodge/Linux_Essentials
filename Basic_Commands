@@ -1,4 +1,4 @@
-% Open a terminal
+Open a terminal
 Ctrl+Alt+T
 
 Print your current working directory
@@ -11,6 +11,7 @@ Listing available Files
 ls
 ls -a % show hidden files
 la -l % show details
+ls -a -l 
 
 Change Directory
 cd
@@ -19,6 +20,9 @@ Back to up directory
 cd ..
 Two step
 cd ../..
+
+Back to home
+cd ~
 
 Indicate current directory
 cd .
