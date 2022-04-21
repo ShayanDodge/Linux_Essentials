@@ -29,4 +29,4 @@ cd .
 
 compiler c++
 g++ name.cpp -o output
-./ output
+./output
