@@ -1,0 +1,6 @@
+#!/etc/bash
+
+for ((i=1;i<1000;i++))
+do 
+mkdir "new_folder $i"
+done

@@ -1,0 +1,8 @@
+#! /bin/bash
+for (( ; ; ))
+do
+read -p "a:" first_number
+read -p "b=" second_number
+result=$((first_number+second_number))
+echo " $first_number+$second_number=$result"
+done

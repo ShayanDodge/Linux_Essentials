@@ -1,0 +1,14 @@
+#!v/bin/bash
+if [ $1 == "SHAYAN" ]
+then
+echo "Hi SHAYAN"
+read -p "Password:" p
+if [ $p  == "123" ]
+then
+echo "Weicome  SHAYAN"
+else
+echo "you password is incorrect"
+fi
+else
+echo "you are not main user"
+fi
