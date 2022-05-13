@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "welcome"
+echo "Check for and Install Ubuntu Package Updates"
+sudo apt update
+sudo apt upgrade
+echo "Choose a Browser for Ubuntu"
+sudo apt install chromium-browser
+echo "Install VLC Player on Ubuntu"
+sudo apt install vlc
+echo "Install GNOME Tweaks"
+sudo apt install gnome-tweaks
+echo "Install Laptop Power Saving Tools"
+sudo apt install laptop-mode-tools
+echo "To enable firewall"
+sudo ufw enable
+sudo ufw status
